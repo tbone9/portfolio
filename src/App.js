@@ -4,9 +4,10 @@ import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import { Grid } from 'semantic-ui-react';
 
-import Nav from './Aside';
+import Nav from './Nav';
 import About from './About';
-import Projects from './Projects';
+import Projects from './ProjectsContainer';
+import Intro from './Intro';
 
 class App extends Component {
   render() {
@@ -20,8 +21,9 @@ class App extends Component {
               
                 
                 <Switch>
-                  <Route path="/About" component={About}/>
-                  <Route path="/Projects" component={Projects}/>
+                  <Route exact path="/" component={Intro}/>
+                  <Route exact path="/About" component={About}/>
+                  <Route exact path="/Projects" component={Projects}/>
                 </Switch>
 
             
