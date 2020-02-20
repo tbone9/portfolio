@@ -1,0 +1,12 @@
+#container {
+    height: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+.project {
+    margin: 10px 0;
+}

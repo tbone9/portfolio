@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../ProjectsContainer/style.css';
 
 import StillBreaking from '../Projects/StillBreaking';
 import Accessame from '../Projects/Accessame';
@@ -14,12 +15,22 @@ class Projects extends Component {
             <React.Fragment>
                 <h2>My Projects!</h2>
                 
-                <div>
-                    <Accessame />
-                    <BabyVax />
-                    <IntervalTimer />
-                    <ShootingArcade />
-                    <StillBreaking />
+                <div id='container'>
+                    <div className='project'>
+                        <Accessame />
+                    </div>
+                    <div className='project'>
+                        <BabyVax />
+                    </div>
+                    <div className='project'>
+                        <IntervalTimer />
+                    </div>
+                    <div className='project'>
+                        <ShootingArcade />
+                    </div>
+                    <div className='project'>
+                        <StillBreaking />
+                    </div>
                 </div>
                 
             </React.Fragment>
