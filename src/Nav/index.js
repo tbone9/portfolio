@@ -6,8 +6,7 @@ const Nav = () => {
     
         return (
             <React.Fragment>
-                <h2>Nav</h2>
-    
+                
                 <div className='link-group'>
                     <div className='link'>
                         <NavLink 
