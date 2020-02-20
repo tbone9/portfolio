@@ -13,7 +13,6 @@ class Projects extends Component {
     render() {
         return (
             <React.Fragment>
-                <h2>My Projects!</h2>
                 
                 <div id='container'>
                     <div className='project'>
