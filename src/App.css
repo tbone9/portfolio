@@ -1,14 +1,25 @@
 .container {
-  height: 100vh;
-  width: 100%;
-  
   background: lightblue;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-areas: 
+    'aside main'
+  ;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 1fr;
 }
 
 .aside {
+  grid-area: aside;
   float: left;
   height: 100%;
-  width: 150px;
+  /* width: 150px; */
   background: lightgrey;
   
+}
+
+.main {
+  grid-area: main;
+  height: 100%;
 }

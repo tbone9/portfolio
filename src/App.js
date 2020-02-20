@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import './App.css';
-import { Grid } from 'semantic-ui-react';
 
 import Nav from './Nav';
 import About from './About';
@@ -19,13 +18,13 @@ class App extends Component {
                 <Nav  />
               </div>
               
-                
+              <div className='main'>
                 <Switch>
                   <Route exact path="/" component={Intro}/>
                   <Route exact path="/About" component={About}/>
                   <Route exact path="/Projects" component={Projects}/>
                 </Switch>
-
+              </div>
             
         
       </div>
