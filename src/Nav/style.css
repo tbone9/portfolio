@@ -6,13 +6,18 @@
     height: 30vh;
 }
 
-.link {
+ .link {
     font-size: 2em;
+    width: 100%;
+}
+
+.navLink {
     display: block;
+    background: blue;
+    width: 100%;
+    padding: 10px;
 }
 
 .active {
     background: white;
-    
-    /* padding: 5px 0; */
 }
