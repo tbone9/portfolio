@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import { CSSTransition } from 'react-transition-group';
 import '../Nav/style.css'
 
 const Nav = () => {
@@ -28,40 +29,44 @@ const Nav = () => {
             setIsSmallScreen(false);
         }
     }
-    
+
         return (
             <header className='header'>
 
                 <div className='logo'>TW</div>
+                    
                 
-                {(!isSmallScreen || !isNavVisible) && (
-                    <nav className='nav'>
-                        <div className='link'>
-                            <NavLink 
-                            exact
-                            activeClassName='active'
-                            className='navLink'
-                            to={'/'}>
-                                Home</NavLink>
-                        </div>
-                        <div className='link'>
-                            <NavLink 
-                            exact
-                            activeClassName='active'
-                            className='navLink'
-                            to={'/About'}>
-                                About</NavLink>
-                        </div>
-                        <div className='link'>
-                            <NavLink 
-                            exact
-                            activeClassName='active'
-                            className='navLink'
-                            to={'/Projects'}>
-                                Projects</NavLink>
-                        </div>
-                    </nav>
-                )}
+                    {(!isSmallScreen || !isNavVisible) && (
+                        
+                        <nav className='nav' onClick={toggleNav}>
+                            <div className='link'>
+                                <NavLink 
+                                exact
+                                activeClassName='active'
+                                className='navLink'
+                                to={'/'}>
+                                    Home</NavLink>
+                            </div>
+                            <div className='link'>
+                                <NavLink 
+                                exact
+                                activeClassName='active'
+                                className='navLink'
+                                to={'/About'}>
+                                    About</NavLink>
+                            </div>
+                            <div className='link'>
+                                <NavLink 
+                                exact
+                                activeClassName='active'
+                                className='navLink'
+                                to={'/Projects'}>
+                                    Projects</NavLink>
+                            </div>
+                        </nav>
+                        
+                    )}
+                
                 <button onClick={toggleNav} className='burger'>Menu</button>
                 
             </header>
