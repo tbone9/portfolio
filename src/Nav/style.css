@@ -1,12 +1,31 @@
-.link-group {
-    display: flex;
-    flex-direction: column;
+.header {
+    display: grid;
+    grid-template-areas: 'logo'
+                         'nav';
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 1fr ;
+}
+
+.logo {
+    grid-area: logo;
+}
+
+.nav {
+    grid-area: nav;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-row-gap: 20px;
     align-items: center;
+    justify-items: center;
+    
+    
+    /* align-items: center;
     justify-content: space-evenly;
-    height: 30vh;
+    height: 30vh; */
 }
 
  .link {
+    /* margin: 10px 0;  */
     font-size: 2em;
     width: 100%;
 }
@@ -20,4 +39,24 @@
 
 .active {
     background: white;
+}
+
+.burger {
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    .header {
+        grid-template-areas: 'logo burger' 'nav nav';
+    }
+    .nav {
+        grid-template-rows: repeat(3, auto);
+        grid-template-columns: none;
+        grid-row-gap: 20px;
+        z-index: 1;
+        background: grey;
+    }
+    .burger{
+        display: block;
+    }
 }

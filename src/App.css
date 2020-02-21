@@ -23,3 +23,18 @@
   grid-area: main;
   height: 100%;
 }
+
+@media screen and (max-width:600px) {
+  .container {
+    grid-template-areas: 
+    'aside'
+    'main'
+  ;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10vh 1fr;
+  }
+  .aside {
+    width: 100%;
+    height: auto;
+  }
+}
