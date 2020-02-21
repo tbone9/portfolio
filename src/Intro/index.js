@@ -4,7 +4,7 @@ import '../Intro/style.css';
 const Intro = () => {
     return (
         <React.Fragment>
-            <div className='mainContainer'>
+            <div className='introContainer'>
                 <h1>Tyler Walker</h1>
                 <h2>Web Developer</h2>
                 <div className='linkContainer'>
