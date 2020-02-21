@@ -1,4 +1,24 @@
-.mainContainer {
-    margin: 10px auto;
-    width: 90%;
+.aboutContainer {
+    background: url('../About/Alyeska\ 3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.contentContainer {
+    background: rgba(211, 211, 211, 0.589);
+    width: 95%;
+    padding: 20px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: 600;
 }

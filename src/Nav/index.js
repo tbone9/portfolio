@@ -47,14 +47,7 @@ const Nav = () => {
                                 to={'/'}>
                                     Home</NavLink>
                             </div>
-                            <div className='link'>
-                                <NavLink 
-                                exact
-                                activeClassName='active'
-                                className='navLink'
-                                to={'/About'}>
-                                    About</NavLink>
-                            </div>
+                            
                             <div className='link'>
                                 <NavLink 
                                 exact
@@ -62,6 +55,14 @@ const Nav = () => {
                                 className='navLink'
                                 to={'/Projects'}>
                                     Projects</NavLink>
+                            </div>
+                            <div className='link'>
+                                <NavLink 
+                                exact
+                                activeClassName='active'
+                                className='navLink'
+                                to={'/About'}>
+                                    About</NavLink>
                             </div>
                         </nav>
                         
