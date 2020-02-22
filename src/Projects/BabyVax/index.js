@@ -29,7 +29,7 @@ class BabyVax extends Component {
                             <h2 className='title'>BabyVax</h2>
                             <p className='tagline'>Keep Track Of Your Infant's Vaccinations</p>
                             <button className='flipButton' onClick={this.flipCard}>Read More</button>
-                            <p className='techUsed'>| EJS | MongoDB |</p>
+                            <p className='techUsed'>| Node | MongoDB | Express |</p>
                             <div className='linksContainer'>
                                 <a href='https://medcheck1.herokuapp.com/' target='_blank' rel="noopener noreferrer">Visit Site</a> 
                                 <a href='https://github.com/tbone9/MedCheck' target='_blank' rel="noopener noreferrer">GitHub</a>
