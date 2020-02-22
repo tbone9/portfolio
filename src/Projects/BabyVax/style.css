@@ -40,13 +40,9 @@
     backface-visibility: hidden;
 }
 .card-back {
-    background-color: white;
-    color: black;
+    background-color: dodgerblue;
+    color: white;
     transform: rotateY(180deg);
-    border: 2px solid black;
-}
-.back-content {
-    margin: 10px 5px;;
 }
 
 .card:hover {
