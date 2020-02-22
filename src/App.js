@@ -11,7 +11,7 @@ import Intro from './Intro';
 class App extends Component {
   render() {
     return (
-      <div className='container'>
+      <div className='appContainer'>
         
           
               <div className='aside'>

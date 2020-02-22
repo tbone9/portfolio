@@ -1,4 +1,4 @@
-.container {
+.appContainer {
   background: rgb(255, 255, 255);
   height: 100vh;
   width: 100vw;
@@ -8,6 +8,7 @@
   ;
   grid-template-columns: 150px 1fr;
   grid-template-rows: 1fr;
+  overflow: hidden;
 }
 
 .aside {
@@ -15,7 +16,7 @@
   float: left;
   height: 100%;
   
-  background: lightgrey;
+  /* background: lightgrey; */
   
 }
 
@@ -25,7 +26,7 @@
 }
 
 @media screen and (max-width:600px) {
-  .container {
+  .appContainer {
     grid-template-areas: 
     'aside'
     'main'

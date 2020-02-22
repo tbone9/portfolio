@@ -1,5 +1,5 @@
-#container {
-    height: 95vh;
+#projectContainer {
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     overflow: scroll;

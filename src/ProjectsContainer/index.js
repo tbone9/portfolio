@@ -14,7 +14,7 @@ class Projects extends Component {
         return (
             <React.Fragment>
                 
-                <div id='container'>
+                <div id='projectContainer'>
                     <div className='project'>
                         <Accessame />
                     </div>

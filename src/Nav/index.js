@@ -68,7 +68,9 @@ const Nav = () => {
                         
                     )}
                 
-                <button onClick={toggleNav} className='burger'>Menu</button>
+                <button onClick={toggleNav} className='burger'>
+                    <i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+                </button>
                 
             </header>
         )
