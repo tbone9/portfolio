@@ -40,7 +40,7 @@ class ShootingArcade extends Component {
                     <div className='card-back'>
                         <div className='back-content'>
                             <h2>Shooting Arcade</h2>
-                            <p>A browser game where targets appear and move accross the screen. You shoot them and get points. The game keeps track of shots fired, missed, and hit, as well as keeping track of multiple scores. The audio and sound effects are kinda neat, too</p>
+                            <p>A browser game where targets appear and move accross the screen. You shoot them and get points. The game keeps track of shots fired, missed, and hit, as well as keeping track of multiple scores. The audio and sound effects are kinda neat, too.</p>
                             <button className='flipButton' onClick={this.flipBack}>Back</button>
                         </div>
                     </div>
