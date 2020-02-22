@@ -38,9 +38,12 @@ class Accessame extends Component {
                     </div>
 
                     <div className='card-back'>
-                        <h2>Accessame</h2>
-                        <p>An app to crowdsource accessiblity information for any place in the world. It uses Google places and maps API to access the coordinates of any place and plot that place on a map, with React rendering the front-end. The Python/PostgreSQL backend stores place user info, place data, and place ratings. </p>
-                        <button className='flipButton' onClick={this.flipBack}>Back</button>
+                        <div className='back-content'>
+                            <h2>Accessame</h2>
+                            <p>An app to crowdsource accessiblity information for any place in the world. It uses Google places and maps API to access the coordinates of any place and plot that place on a map, with React rendering the front-end. The Python/PostgreSQL backend stores place user info, place data, and place ratings. </p>
+                            <button className='flipButton' onClick={this.flipBack}>Back</button>
+                        </div>
+                        
                     </div>
 
                 </div>
