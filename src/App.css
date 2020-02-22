@@ -32,7 +32,7 @@
     'main'
   ;
   grid-template-columns: 1fr;
-  grid-template-rows: 10vh 1fr;
+  grid-template-rows: 60px 1fr;
   }
   .aside {
     width: 100%;

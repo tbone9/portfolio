@@ -27,7 +27,7 @@ class StillBreaking extends Component {
                         <img src={pic} alt='screenshot of app' />
                         <div className='infoContainer'>
                             <h2 className='title'>Still Breaking</h2>
-                            <p className='tagline'>Keep Track Of Current Events After The News Cycle Has Moved On</p>
+                            <p className='tagline'>Keep Track of Current Events After the News Cycle Has Moved On</p>
                             <button className='flipButton' onClick={this.flipCard}>Read More</button>
                             <p className='techUsed'>| React | Python | SQL |</p>
                             <div className='linksContainer'>

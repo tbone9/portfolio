@@ -9,11 +9,9 @@
 
 .logo {
     grid-area: logo;
-    /* background: grey; */
-    margin: auto;
+    margin: 20px 30px;
     font-size: 4em;
-    width: fit-content;
-    height: fit-content;
+    
 }
 
 .nav {
@@ -75,26 +73,39 @@
 @media screen and (max-width:600px) {
     .header {
         grid-template-areas: 'logo burger' 'nav nav';
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px 1fr;
+        
+        width: 100%;
+        
     }
     .nav {
+        grid-area: nav;
         grid-template-rows: repeat(3, auto);
         grid-template-columns: none;
-        grid-row-gap: 20px;
+        
         z-index: 1;
-        background: rgba(128, 128, 128, 0.664);
-        display: flex;
-        flex-direction: column;
+        background: rgb(128, 128, 128);
+        
         top: 0;
-        height: 90%;
+        height: 100%;
+    
     }
     .burger{
+        grid-area: burger;
         display: block;
+        display: relative;
+        right: 0;
+        position: fixed;
         margin-right: 10px;
+        margin-top: 5px;
     }
     .navLink {
         text-align: center;
     }
     .logo {
-        margin: auto 5%;
+        grid-area: logo;
+        /* margin: 10px 5px; */
+        position: fixed;
     }
 }

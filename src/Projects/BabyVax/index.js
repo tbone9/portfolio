@@ -27,7 +27,7 @@ class BabyVax extends Component {
                         <img src={pic} alt='screenshot of app' />
                         <div className='infoContainer'>
                             <h2 className='title'>BabyVax</h2>
-                            <p className='tagline'>Keep Track Of Your Infant's Vaccinations</p>
+                            <p className='tagline'>Keep Track of Your Infant's Vaccinations</p>
                             <button className='flipButton' onClick={this.flipCard}>Read More</button>
                             <p className='techUsed'>| Node | MongoDB | Express |</p>
                             <div className='linksContainer'>
