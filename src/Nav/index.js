@@ -1,15 +1,19 @@
 import React, { useState, useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
-import { CSSTransition } from 'react-transition-group';
+import { NavLink, Link } from 'react-router-dom';
+// import { CSSTransition } from 'react-transition-group';
 import '../Nav/style.css'
 
 const Nav = () => {
-
+   
     const [isNavVisible, setIsNavVisible] = useState(true);
 
     const toggleNav = () => {
         setIsNavVisible(!isNavVisible);
     };
+
+    let closeNav = () => {
+        setIsNavVisible(!false);
+    }
 
     const [isSmallScreen, setIsSmallScreen] = useState(false);
 
@@ -32,8 +36,10 @@ const Nav = () => {
 
         return (
             <header className='header'>
-
-                <div className='logo'>TW</div>
+                <Link to={'/'}>
+                    <div className='logo' onClick={closeNav}>TW</div>
+                </Link>
+                
                     
                 
                     {(!isSmallScreen || !isNavVisible) && (

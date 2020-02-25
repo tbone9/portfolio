@@ -8,8 +8,20 @@
 }
 
 .introContainer h1 {
-    font-size: 4em;
+    font-size: 6em;
+    letter-spacing: 8px;
+    color: white;
+    text-align: center;
+}
+
+.introContainer h2 {
+    font-size: 3em;
     letter-spacing: 4px;
+    color: white;
+}
+
+.icons {
+    display: none;
 }
 
 .linkContainer {
@@ -18,7 +30,11 @@
 }
 
 .linkContainer a {
-    font-size: 1em;
-    font-weight: 700;
-    margin: 0 10px;
+    color: rgb(250, 198, 87);
+    margin: 0 20px;
 }
+
+.linkContainer a:hover {
+    color: white;
+}
+

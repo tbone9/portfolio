@@ -11,7 +11,7 @@ class BabyVax extends Component {
     }
 
     flipCard = () => {
-        const card = document.querySelector('#babyVaxInner').style.transform = "rotateY(180deg)";
+        document.querySelector('#babyVaxInner').style.transform = "rotateY(180deg)";
         console.log(this)
     }
 

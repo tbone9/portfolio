@@ -11,7 +11,7 @@ class ShootingArcade extends Component {
     }
 
     flipCard = () => {
-        const card = document.querySelector('#arcadeInner').style.transform = "rotateY(180deg)";
+        document.querySelector('#arcadeInner').style.transform = "rotateY(180deg)";
         console.log(this)
     }
 

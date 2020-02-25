@@ -9,13 +9,17 @@ import Projects from './ProjectsContainer';
 import Intro from './Intro';
 
 class App extends Component {
+  state = {
+    navOpen: false
+  }
+  
   render() {
     return (
       <div className='appContainer'>
         
           
               <div className='aside'>
-                <Nav  />
+                <Nav  navOpen={this.state.navOpen}/>
               </div>
               
               <div className='main'>

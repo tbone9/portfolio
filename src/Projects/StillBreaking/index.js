@@ -11,7 +11,7 @@ class StillBreaking extends Component {
     }
 
     flipCard = () => {
-        const card = document.querySelector('#breakingInner').style.transform = "rotateY(180deg)";
+        document.querySelector('#breakingInner').style.transform = "rotateY(180deg)";
         console.log(this)
     }
 

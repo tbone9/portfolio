@@ -1,5 +1,6 @@
 .appContainer {
-  background: rgb(255, 255, 255);
+  background: url('../src/background.jpg') no-repeat center center fixed;
+  background-size: cover;
   height: 100vh;
   width: 100vw;
   display: grid;
@@ -23,6 +24,7 @@
 .main {
   grid-area: main;
   height: 100%;
+  /* overflow: auto; */
 }
 
 @media screen and (max-width:600px) {

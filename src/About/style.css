@@ -1,24 +1,37 @@
 .aboutContainer {
-    background: url('../About/Alyeska\ 3.jpg') no-repeat center center fixed;
-    background-size: cover;
     height: 100%;
-    overflow: hidden;
-    display: flex;
+    /* overflow: auto; */
 }
 
 .contentContainer {
     background: rgba(211, 211, 211, 0.589);
     width: 95%;
+    height: 93vh;
     padding: 20px;
     margin: auto;
+    overflow: auto;
+    
 }
 
-h2 {
+.contentContainer h2 {
     text-align: center;
     font-size: 2em;
+    letter-spacing: 2px;
 }
 
-p {
+.contentContainer p {
     font-size: 1.2em;
-    font-weight: 600;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    color: rgb(54, 54, 54);
+}
+
+.contentContainer img {
+    max-width: 100%;
+    height: 400px;
+    display: block;
+    margin: auto;
+    border: none;
+    margin-bottom: 5px;
 }
