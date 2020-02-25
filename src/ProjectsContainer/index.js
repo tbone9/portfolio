@@ -19,16 +19,16 @@ class Projects extends Component {
                         <Accessame />
                     </div>
                     <div className='project'>
-                        <BabyVax />
-                    </div>
-                    <div className='project'>
-                        <IntervalTimer />
+                        <StillBreaking />
                     </div>
                     <div className='project'>
                         <ShootingArcade />
                     </div>
                     <div className='project'>
-                        <StillBreaking />
+                        <IntervalTimer />
+                    </div>
+                    <div className='project'>
+                        <BabyVax />
                     </div>
                 </div>
                 

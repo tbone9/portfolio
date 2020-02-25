@@ -9,17 +9,32 @@ import Projects from './ProjectsContainer';
 import Intro from './Intro';
 
 class App extends Component {
-  state = {
-    navOpen: false
-  }
+  // state = {
+  //   navOpen: false
+  // }
+
+  // closeNav = (e) => {
+  //   console.log(e.currentTarget.className)
+  //   if(e.currentTarget.className === 'appContainer') {
+  //     this.setState({
+  //       navOpen: false
+  //     })
+  //   }
+  // }
+
+  // openNav = () => {
+  //   this.setState({
+  //     navOpen: true
+  //   })
+  // }
   
   render() {
     return (
-      <div className='appContainer'>
+      <div className='appContainer' onClick={this.closeNav}>
         
           
               <div className='aside'>
-                <Nav  navOpen={this.state.navOpen}/>
+                <Nav />
               </div>
               
               <div className='main'>
