@@ -6,6 +6,7 @@ import Accessame from '../Projects/Accessame';
 import ShootingArcade from '../Projects/ShootingArcade';
 import BabyVax from '../Projects/BabyVax';
 import IntervalTimer from '../Projects/IntervalTimer';
+import DenverStreetArt from '../Projects/DenverStreetArt';
 
 
 
@@ -13,8 +14,11 @@ class Projects extends Component {
     render() {
         return (
             <React.Fragment>
-                
+
                 <div id='projectContainer'>
+                    <div className='project'>
+                        <DenverStreetArt />
+                    </div>
                     <div className='project'>
                         <Accessame />
                     </div>
@@ -31,7 +35,7 @@ class Projects extends Component {
                         <BabyVax />
                     </div>
                 </div>
-                
+
             </React.Fragment>
         )
     }
