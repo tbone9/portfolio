@@ -6,12 +6,16 @@ import Accessame from '../Projects/Accessame';
 import ShootingArcade from '../Projects/ShootingArcade';
 import BabyVax from '../Projects/BabyVax';
 import IntervalTimer from '../Projects/IntervalTimer';
+import DenverStreetArt from '../Projects/DenverStreetArt';
 
 function Projects() {
     return (
         <React.Fragment>
 
             <div id='projectContainer'>
+                <div className='project'>
+                    <DenverStreetArt />
+                </div>
                 <div className='project'>
                     <Accessame />
                 </div>

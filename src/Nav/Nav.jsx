@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import '../Nav/style.css'
+import './style.css'
 
 function Nav() {
 
@@ -35,9 +35,9 @@ function Nav() {
 
     return (
         <header className='header'>
-            <Link to={'/'}>
+            {/* <Link to={'/'}>
                 <div className='logo' onClick={closeNav}>TW</div>
-            </Link>
+            </Link> */}
 
 
 

@@ -16,7 +16,7 @@
 
 .introContainer h2 {
     font-size: 3em;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: white;
 }
 
@@ -25,13 +25,15 @@
 }
 
 .linkContainer {
-    width: 300px;
+    width: 400px;
     text-align: center;
+    
 }
 
 .linkContainer a {
     color: rgb(250, 198, 87);
     margin: 0 20px;
+    transition: .5s;
 }
 
 .linkContainer a:hover {
