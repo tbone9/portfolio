@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import './style.css'
+import logo from './logo.jpg';
 
 function Nav() {
 
@@ -35,9 +36,7 @@ function Nav() {
 
     return (
         <header className='header'>
-            {/* <Link to={'/'}>
-                <div className='logo' onClick={closeNav}>TW</div>
-            </Link> */}
+
 
 
 
@@ -72,10 +71,15 @@ function Nav() {
                 </nav>
 
             )}
+            <div className='smallNav'>
+                <Link to={'/'}>
+                    <img src={logo} alt='logo' className='logo' onClick={closeNav} />
+                </Link>
 
-            <button onClick={toggleNav} className='burger'>
-                <i className="fa fa-bars fa-4x" aria-hidden="true"></i>
-            </button>
+                <button onClick={toggleNav} className='burger'>
+                    <i className="fa fa-bars fa-4x" aria-hidden="true"></i>
+                </button>
+            </div>
 
         </header>
     )

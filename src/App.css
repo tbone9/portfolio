@@ -9,7 +9,7 @@
     'main'
   ;
   grid-template-columns: 1fr;
-  grid-template-rows: 10vh 1fr;
+  grid-template-rows: 8vh 1fr;
   overflow: hidden;
 }
 
@@ -20,22 +20,19 @@
 
 .main {
   grid-area: main;
-  height: 100%;
-  margin-top: 3%;
-  width: 100vw;
+  
 }
 
-@media screen and (max-width:600px) {
+/* @media screen and (max-width:600px) {
   .appContainer {
     grid-template-areas: 
-    'aside'
+    'header'
     'main'
   ;
   grid-template-columns: 1fr;
   grid-template-rows: 60px 1fr;
   }
-  .aside {
-    width: 100%;
-    height: auto;
+  .mainHeader {
+   
   }
-}
+} */
